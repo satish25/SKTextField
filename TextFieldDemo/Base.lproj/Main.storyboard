@@ -18,17 +18,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYZ-gf-IbL">
-                                <rect key="frame" x="57" y="130" width="56" height="56"/>
+                                <rect key="frame" x="28" y="136" width="44" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="56" id="6Md-dI-eMC"/>
-                                    <constraint firstAttribute="height" constant="56" id="JOH-74-S4E"/>
+                                    <constraint firstAttribute="width" constant="44" id="6Md-dI-eMC"/>
+                                    <constraint firstAttribute="height" constant="44" id="JOH-74-S4E"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" backgroundImage="user_icon1.png">
+                                <state key="normal" backgroundImage="tickbox2.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" backgroundImage="user_icon2.png"/>
+                                <state key="selected" backgroundImage="tickbox1.png"/>
                                 <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="57" y="50" width="56" height="56"/>
                                 </variation>
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BJG-Zz-ngT">
-                                <rect key="frame" x="121" y="240" width="418" height="56"/>
+                                <rect key="frame" x="151" y="240" width="408" height="56"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="jJ3-A4-Q2a"/>
@@ -52,7 +52,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JgJ-sU-XTE">
-                                <rect key="frame" x="121" y="130" width="418" height="56"/>
+                                <rect key="frame" x="151" y="130" width="408" height="56"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="D3F-iS-whr"/>
@@ -92,13 +92,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bi-Tr-01j">
-                                <rect key="frame" x="57" y="240" width="56" height="56"/>
+                                <rect key="frame" x="30" y="246" width="44" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="OrO-rx-KT6"/>
-                                    <constraint firstAttribute="width" constant="56" id="ips-GQ-NfE"/>
+                                    <constraint firstAttribute="height" constant="44" id="OrO-rx-KT6"/>
+                                    <constraint firstAttribute="width" constant="44" id="ips-GQ-NfE"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" backgroundImage="user_icon1.png">
+                                <state key="normal" backgroundImage="tickbox2.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
@@ -112,14 +112,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90540987253189087" green="0.85148590803146362" blue="0.85084277391433716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="JgJ-sU-XTE" secondAttribute="trailing" constant="45" id="FW3-pu-cut">
+                            <constraint firstAttribute="trailingMargin" secondItem="JgJ-sU-XTE" secondAttribute="trailing" constant="25" id="FW3-pu-cut">
                                 <variation key="widthClass=compact" constant="15"/>
                             </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="BJG-Zz-ngT" secondAttribute="trailing" constant="45" id="Iy3-si-XnB">
+                            <constraint firstAttribute="trailingMargin" secondItem="BJG-Zz-ngT" secondAttribute="trailing" constant="25" id="Iy3-si-XnB">
                                 <variation key="widthClass=compact" constant="15"/>
                             </constraint>
                             <constraint firstItem="BJG-Zz-ngT" firstAttribute="top" secondItem="JgJ-sU-XTE" secondAttribute="bottom" constant="54" id="JH1-fK-PXf"/>
-                            <constraint firstItem="KYZ-gf-IbL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="41" id="LPU-Kh-q9A">
+                            <constraint firstItem="KYZ-gf-IbL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="12" id="LPU-Kh-q9A">
                                 <variation key="widthClass=compact" constant="12"/>
                             </constraint>
                             <constraint firstItem="JgJ-sU-XTE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="Qg1-fV-Xhi">
@@ -129,17 +129,17 @@
                                 <variation key="heightClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="CwP-E2-EDj" secondAttribute="centerX" constant="-0.5" id="UH8-Jt-msI"/>
-                            <constraint firstItem="JgJ-sU-XTE" firstAttribute="leading" secondItem="KYZ-gf-IbL" secondAttribute="trailing" constant="8" id="UeB-ze-bAr">
+                            <constraint firstItem="JgJ-sU-XTE" firstAttribute="leading" secondItem="KYZ-gf-IbL" secondAttribute="trailing" constant="79" id="UeB-ze-bAr">
                                 <variation key="widthClass=compact" constant="-2"/>
                             </constraint>
-                            <constraint firstItem="KYZ-gf-IbL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="VzI-Uu-dMJ">
+                            <constraint firstItem="KYZ-gf-IbL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="116" id="VzI-Uu-dMJ">
                                 <variation key="heightClass=compact" constant="30"/>
                             </constraint>
-                            <constraint firstItem="0bi-Tr-01j" firstAttribute="top" secondItem="KYZ-gf-IbL" secondAttribute="bottom" constant="54" id="eZv-DP-NY2"/>
-                            <constraint firstItem="0bi-Tr-01j" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="41" id="nJK-7M-Rua">
+                            <constraint firstItem="0bi-Tr-01j" firstAttribute="top" secondItem="KYZ-gf-IbL" secondAttribute="bottom" constant="66" id="eZv-DP-NY2"/>
+                            <constraint firstItem="0bi-Tr-01j" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="14" id="nJK-7M-Rua">
                                 <variation key="widthClass=compact" constant="12"/>
                             </constraint>
-                            <constraint firstItem="BJG-Zz-ngT" firstAttribute="leading" secondItem="0bi-Tr-01j" secondAttribute="trailing" constant="8" id="y5L-mm-uos">
+                            <constraint firstItem="BJG-Zz-ngT" firstAttribute="leading" secondItem="0bi-Tr-01j" secondAttribute="trailing" constant="77" id="y5L-mm-uos">
                                 <variation key="widthClass=compact" constant="-2"/>
                             </constraint>
                         </constraints>
@@ -163,7 +163,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="user_icon1.png" width="86" height="88"/>
-        <image name="user_icon2.png" width="86" height="88"/>
+        <image name="tickbox1.png" width="44" height="44"/>
+        <image name="tickbox2.png" width="44" height="44"/>
     </resources>
 </document>

@@ -21,12 +21,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-   // [self.firstBtn setBackgroundImage:[UIImage imageNamed:@"user_icon2.png"] forState:(UIControlStateHighlighted|UIControlStateSelected)];
-     [self.seconfBtn setBackgroundImage:[UIImage imageNamed:@"user_icon1.png"] forState:UIControlStateNormal];
-    [self.seconfBtn setBackgroundImage:[UIImage imageNamed:@"user_icon2.png"] forState:UIControlStateSelected];
+   
+     [self.seconfBtn setBackgroundImage:[UIImage imageNamed:@"tickbox2.png"] forState:UIControlStateNormal];
+    [self.seconfBtn setBackgroundImage:[UIImage imageNamed:@"tickbox1.png"] forState:UIControlStateSelected];
     
-   /* [self.firstBtn setBackgroundImage:[UIImage imageNamed:@"user_icon1.png"] forState:UIControlStateDisabled];
-    [self.seconfBtn setBackgroundImage:[UIImage imageNamed:@"user_icon1.png"] forState:UIControlStateDisabled];*/
+
     
     self.firstTextField.delegate = self;
     self.seconfTextField.delegate = self;
