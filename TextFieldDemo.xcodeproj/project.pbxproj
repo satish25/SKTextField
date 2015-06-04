@@ -15,6 +15,8 @@
 		292B01481B1F4A23006ABF4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292B01471B1F4A23006ABF4D /* Images.xcassets */; };
 		292B014B1B1F4A23006ABF4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292B01491B1F4A23006ABF4D /* LaunchScreen.xib */; };
 		292B01571B1F4A23006ABF4D /* TextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B01561B1F4A23006ABF4D /* TextFieldDemoTests.m */; };
+		292F321F1B204C1700BDC901 /* user_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 292F321D1B204C1700BDC901 /* user_icon1.png */; };
+		292F32201B204C1700BDC901 /* user_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 292F321E1B204C1700BDC901 /* user_icon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		292B01501B1F4A23006ABF4D /* TextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		292B01551B1F4A23006ABF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292B01561B1F4A23006ABF4D /* TextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldDemoTests.m; sourceTree = "<group>"; };
+		292F321D1B204C1700BDC901 /* user_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon1.png; sourceTree = "<group>"; };
+		292F321E1B204C1700BDC901 /* user_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		292B012B1B1F4A23006ABF4D = {
 			isa = PBXGroup;
 			children = (
+				292F321D1B204C1700BDC901 /* user_icon1.png */,
+				292F321E1B204C1700BDC901 /* user_icon2.png */,
 				292B01361B1F4A23006ABF4D /* TextFieldDemo */,
 				292B01531B1F4A23006ABF4D /* TextFieldDemoTests */,
 				292B01351B1F4A23006ABF4D /* Products */,
@@ -203,8 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				292B01461B1F4A23006ABF4D /* Main.storyboard in Resources */,
+				292F321F1B204C1700BDC901 /* user_icon1.png in Resources */,
 				292B014B1B1F4A23006ABF4D /* LaunchScreen.xib in Resources */,
 				292B01481B1F4A23006ABF4D /* Images.xcassets in Resources */,
+				292F32201B204C1700BDC901 /* user_icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +428,7 @@
 				292B015C1B1F4A23006ABF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		292B015D1B1F4A23006ABF4D /* Build configuration list for PBXNativeTarget "TextFieldDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				292B015F1B1F4A23006ABF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
